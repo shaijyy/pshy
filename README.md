@@ -5,6 +5,10 @@
    Gives the user the Product Key used to activate Windows on that device.  
    USAGE:
    ```ps
-   irm https://bit.ly/gimme_product_key | iex
+   irm https://dub.sh/gimme_product_key | iex
+   ```
+   or through CMD:
+   ```cmd
+   powershell "irm https://dub.sh/gimme_product_key | iex"
    ```
 > More to come!
